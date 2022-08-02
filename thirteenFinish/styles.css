@@ -1,0 +1,67 @@
+.hoverblock {
+  background-color: yellowgreen;
+  width: 35%;
+}
+
+.hoverblock:hover {
+  padding: 50px;
+  text-decoration: underline;
+  font-size: 48px;
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+/* not yet been visited */
+a:link {
+  font-size: 64px;
+  font-weight: bolder;
+  color: red;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+a:active {
+  color: black;
+  background-color: aqua;
+  font-size: 48px;
+}
+
+p:active {
+  background-color: crimson;
+  font-size: 48px;
+}
+
+.red-input:focus {
+  background: yellow;
+  color: red;
+}
+
+.blue-input:focus {
+  background: yellow;
+  color: blue;
+}
+
+input:disabled {
+  background-color: red;
+  border: 2px solid lightseagreen;
+}
+
+li:nth-child(odd) {
+  background-color: yellowgreen;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+li:first-child {
+  color: red;
+  font-size: 48px;
+}
+
+li:last-child {
+  color: purple;
+  font-size: 48px;
+}
